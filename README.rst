@@ -1,0 +1,4 @@
+=========================================================
+Overview
+=========================================================
+This repository is based on `<https://github.com/MonkeyDoug/Housing-Regression>`_. The main purpose of this repository is to be deployed to streamlit sharing. The repository size is cut down significantly and unnecessary scripts are removed to optimize runtime on the cloud and remain within resource limits. Files are pre-generated from with `a script <https://github.com/MonkeyDoug/HousingRegression/blob/main/housing_regression/generate_random.py>`_ and only the app and essential files directly used in the web-app is contained.
