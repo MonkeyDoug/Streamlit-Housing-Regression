@@ -74,7 +74,7 @@ main_col.header('Predict House Price')
 main_col.write(prediction[0])
 
 main_col.metric(label='Adjusted R Squared',value = files['stats']['R_squared'])
-main_col.metric(label='MSE',value = files['stats']['MSE'])
+#  main_col.metric(label='MSE',value = files['stats']['MSE'])
 main_col.metric(label='RMSE',value = files['stats']['RMSE'])
 main_col.metric(label='MAE',value = files['stats']['MAE'])
 
